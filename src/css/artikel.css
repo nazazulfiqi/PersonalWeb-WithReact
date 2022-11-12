@@ -1,0 +1,79 @@
+:root {
+    --pr-color : #00ADB5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-width {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.container-artikel {
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/img/bgkosong.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+}
+
+.container-artikel a img{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+
+.head-artikel{
+    text-align: center;
+    color: #fff;
+}
+
+.artikel {
+    padding-top: 30px;
+    display: block;
+    margin-left: 330px;
+    
+}
+.artikel h3 {
+    color: var(--pr-color);
+}
+
+.artikel p {
+    color: white;
+}
+
+.artikel-1{
+    width: 600px;
+  
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.artikel-2{
+    width: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.artikel-3{
+    width: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
